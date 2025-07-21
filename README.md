@@ -35,16 +35,6 @@ A lightweight Chrome extension that automatically endorses skills on a LinkedIn 
 
 ---
 
-## 📂 Project Structure
-
-linkedin-skill-endorser/
-│
-├── manifest.json # Chrome extension manifest
-├── popup.html # UI for skill count input
-├── popup.js # Handles user input and starts script
-├── content.js # Core logic to find and click 'endorse' buttons
-└── icon.png # Toolbar icon
-
 
 ## 🧠 How It Works
 
