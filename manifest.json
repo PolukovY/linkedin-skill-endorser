@@ -1,0 +1,18 @@
+
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Skill Endorser",
+  "description": "Auto-endorse top skills on a LinkedIn profile.",
+  "version": "1.0",
+  "permissions": ["scripting", "storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.linkedin.com/in/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
